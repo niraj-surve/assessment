@@ -1,3 +1,5 @@
 /*/.editorconfig
 /*/.vscode
 /*/public/favicon.ico
+/*/node_modules
+/*/.angular
