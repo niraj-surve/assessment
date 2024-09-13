@@ -1,0 +1,11 @@
+<div [ngStyle]="{'background-color': backgroundColor, 'color': textColor, 'font-size': fontSize}">
+    <p> Hey, I'm Niraj </p>
+  </div>
+  
+  <button (click)="toggleHighlight()">Toggle Highlight</button>
+  <br>
+  <br>
+  <label for="fontSize">Font Size: </label>
+  <input type="text" id="fontSize" (input)="changeFontSize($event)">
+  <span>&nbsp;(px)</span>
+  

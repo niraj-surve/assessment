@@ -1,0 +1,18 @@
+<div style="text-align:center">  
+  <form>
+    <label for="name">Name:</label>
+    <input id="name" (input)="handleNameChange($event)" [value]="name" name="name" placeholder="Enter your name" />
+    <br><br>
+    <label for="age">Age:</label>
+    <input id="age" type="number" (input)="handleAgeChange($event)" name="age" placeholder="Enter your age" />
+    <br><br>
+    <label for="email">Email:</label>
+    <input id="email" (input)="handleEmailChange($event)" name="email" placeholder="Enter your email" />
+    <br><br>
+  </form>
+
+  <h2>Entered Information:</h2>
+  <p>Name: {{ name }}</p>
+  <p>Age: {{ age }}</p>
+  <p>Email: {{ email }}</p>
+</div>

@@ -1,0 +1,22 @@
+.menu ul {
+    display: flex;
+    list-style: none;
+    background-color: #696565;
+    color: white;
+  }
+  
+  li {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  li.active {
+    background-color: rgb(255, 101, 101);
+    color: white;
+  }
+
+  .content{
+    padding: 10px;
+  }
